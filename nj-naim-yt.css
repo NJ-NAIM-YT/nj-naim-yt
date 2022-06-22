@@ -1,17 +1,56 @@
- body{
-    background-size: 100%;
-    
-
-    
+body{
+  margin: 0%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{ 
+   font-size: 50px;
  }
- h1{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 91px;
+ .h1-heilight{
+   color: yellow;
  }
- #button{
-    
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    size: 10px;
+ h2{
+  font-size: 40px;
  }
+ p{
+  color: rgb(51, 50, 49);
+ }
+ .naim{
+   width: 40%;
+   float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+ }
+ .naim img{
+   width: 100%;
+ }
+ .naim1{
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+ }
+ section{
+  height: 500px;
+ }
+ .link_button{
+  text-decoration: none ;
+  background-image: linear-gradient(70deg, lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: wheat;
+  font-weight: 700;}
+  .naim_a{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+ #kutta{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 7px;
+   height: 250px;
+ }
+ .bgd{
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 80px;
+ }
+  
